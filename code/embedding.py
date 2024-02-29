@@ -30,7 +30,7 @@ def generate_fasta(data_path,save_path):
                 sequence=row['sequence'].replace('*','')
                 id=str(row['index'])+'_'+row['ID']+'_'+str(row['label'])
                 fasta.write(f'>{id}\n{sequence}\n')
-    return 'FASTA文件已生成完毕'
+    return 'FASTA file has been genrated'
 
 
 
@@ -84,7 +84,7 @@ def extract_embedding(model, fasta_file,output_dir, toks_per_batch,
                 if return_contacts:
                     result["contacts"] = contacts[i, :truncate_len, :truncate_len].clone()
                 torch.save(result, output_file)
-    return 'Embedding已经完成'
+    return 'Embedding has been extracted'
 
 
 
