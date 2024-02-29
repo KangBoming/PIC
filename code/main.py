@@ -8,7 +8,6 @@ import numpy as np
 import pandas as pd
 import argparse
 from sklearn.metrics import accuracy_score ,precision_score,recall_score,roc_auc_score,average_precision_score,f1_score
-
 from module.load_dataset import get_index,make_dataloader,PIC_Dataset
 from module.PIC import PIC
 from module.loss_func import FocalLoss_L2
@@ -16,9 +15,7 @@ from module.earlystopping import EarlyStopping
 
 
 
-### 获取参数列表
 parser = argparse.ArgumentParser(description='This is a Python script file for PIC model training.')
-# args=params(parser)
 parser.add_argument('--device',type=str,default='cuda:0',help='If you use CPU for training, you can input cpu; If you use GPU for training, you can enter cuda & GPU number, for example: cuda:0.')
 parser.add_argument('--data_path',type=str,help='The save path of dataset for model training.')
 parser.add_argument('--label_name',type=str,help='The type of PIC you want to train.')
@@ -42,29 +39,19 @@ args= parser.parse_args()
 
 def model_train(dataloader,model,loss_fn,optimizer,device):
     model.train()
-    train_loss , train_acc=0 , 0 # 初始化训练集损失
+    train_loss , train_acc=0 , 0 
     for batch , (X,y,index) in enumerate(dataloader):
         X,y,index=X.to(device) ,y.to(device),index.to(device)
         y=y.unsqueeze(1)
-        # 1. 前向传播
         train_logits=model(X,index)
         train_pred=torch.round(torch.sigmoid(train_logits))
-        # 2. 计算损失和准确率
         loss=loss_fn(train_logits,y)
-        # 3. 归零梯度
         optimizer.zero_grad()
-        # 4. 反向传播
         loss.backward()
-        # 5. 优化
         optimizer.step()
-        # 6. 将张量设备从GPU转换为CPU
         loss=loss.cpu().detach().numpy()
         train_loss += loss
-        # train_acc += accuracy_fn(y_true=y.squeeze(),y_pred=train_pred.squeeze()) 
         train_acc=accuracy_score(y_true=y.squeeze().cpu().detach().numpy(),y_pred=train_pred.squeeze().cpu().detach().numpy())   
-        # if batch % 10 == 0:
-        #     loss, current = loss.item(), (batch + 1)
-        #     print(f"loss: {loss:>7f}  [{current:>5d}/{data_size:>5d}]")
     average_train_loss= train_loss / len(dataloader)
     average_train_acc= train_acc / len(dataloader)
     return average_train_loss , average_train_acc
@@ -72,16 +59,16 @@ def model_train(dataloader,model,loss_fn,optimizer,device):
 
 def model_val(dataloader,model,loss_fn,device,mode):
     val_loss=0
-    val_preds=[] #存储模型的预测值
-    val_pred_scores=[] #存储模型的预测分数
-    val_targets=[] #存储实际的标签值
+    val_preds=[]
+    val_pred_scores=[] 
+    val_targets=[] 
     model.eval()
     with torch.inference_mode():
         for X,y,index in dataloader:
             y=y.unsqueeze(1)
             X,y,index=X.to(device),y.to(device),index.to(device)
             val_logits=model(X,index)
-            y_score=torch.sigmoid(val_logits) # 用于计算auc值
+            y_score=torch.sigmoid(val_logits) 
             val_pred=torch.round(torch.sigmoid(val_logits))
             loss=loss_fn(val_logits,y)
             val_preds.append(val_pred.cpu().numpy())
@@ -164,11 +151,10 @@ def train_val_loop(model,epochs,train_data_loader,val_data_loader,
         result_dict[model_name + '_' + 'test_pr_auc'] = [test_pr_auc]
         result_df=pd.DataFrame(result_dict)
     else:
-        print(f'mode输入错误,请输入val或test')
+        print(f'Please input val or test')
     return result_df
 
 
-### 模型训练函数
 def model_train_main(data_path,label_name,
                      test_ratio,val_ratio,
                      feature_dir,batch_size,save_path,
@@ -177,7 +163,6 @@ def model_train_main(data_path,label_name,
                      learning_rate,input_size,hidden_size,
                      output_size,device,
                      num_epochs,random_seed):
-    # 获得训练集、验证集和测试集的dataloader
     train_dataloader,val_dataloader,test_dataloader=make_dataloader(data_path=data_path,
                                                             test_ratio=test_ratio,
                                                             val_ratio=val_ratio,
@@ -188,17 +173,14 @@ def model_train_main(data_path,label_name,
                                                             label_name=label_name,
                                                             batch_size=batch_size,
                                                             device=device)
-    # 实例化模型
+
     model = PIC(input_shape=input_size,hidden_units=hidden_size,device=device,
                 linear_drop=linear_drop,attn_drop=attn_drop,output_shape=output_size)
     model=model.to(device)
-    # 定义优化器和损失函数
     optimizer = torch.optim.AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=learning_rate,weight_decay=1e-4)
     loss_fn =FocalLoss_L2(gamma=0, pos_weight=1.0, logits=True, reduction='mean',weight_decay=1e-4)
-    # 动态调整学习率
-    earlystopping = EarlyStopping(mode='min', patience=5) ### 损失累计5次不降低就停止训练
+    earlystopping = EarlyStopping(mode='min', patience=5) 
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.3, patience=2, threshold=0.0001, verbose=True)
-    ### 训练和验证
     val_result_df=train_val_loop(mode='val',
     model=model,
     model_name=label_name,
@@ -208,7 +190,6 @@ def model_train_main(data_path,label_name,
     scheduler=scheduler,
     earlystopping=earlystopping,
     epochs=num_epochs,device=device)
-    ### 测试
     test_result_df=train_val_loop(mode='test',
     model=model,
     model_name=label_name,
@@ -219,21 +200,16 @@ def model_train_main(data_path,label_name,
     scheduler=scheduler,
     earlystopping=earlystopping,
     epochs=num_epochs,device=device)
-    ### 存储训练好的模型和结果
-    # Create subfolder for each model
     file_name=f'PIC_{label_name}'
     model_folder = os.path.join(save_path, f"{file_name}")
     os.makedirs(model_folder, exist_ok=True)
-    # Save the model
     model_path = os.path.join(model_folder, f"{file_name}_model.pth")
     torch.save(model.state_dict(), model_path)
-    # Save val_result_df
     val_result_path = os.path.join(model_folder, f"{file_name}_val_result.csv")
     val_result_df.to_csv(val_result_path, index=False)
-    # Save test_result_df
     test_result_path = os.path.join(model_folder, f"{file_name}_test_result.csv")
     test_result_df.to_csv(test_result_path, index=False)
-    print(f'{file_name}_model训练完毕')
+    print(f'{file_name}_model has done')
 
 
 
