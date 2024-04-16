@@ -27,13 +27,23 @@ conda create --name PIC --file requirments.txt
 conda activate PIC
 ```
 **Step3: extract the sequence embedding from raw protein sequences** 
+
+The extracted sequence embeddng will be saved at file folder './result/seq_embedding'
 ```
 cd PIC
-python ./code/embedding.py --data_path './data/PIC_cell_dataset.pkl' --fasta_file './result/protein_sequence.fasta' --model 'esm2_t33_650M_UR50D' --ouput_dir './result/seq_embedding' --device 'cuda:0' --truncation_seq_length 1024
-
+python ./code/embedding.py --data_path ./data/PIC_cell_dataset.pkl --fasta_file ./result/protein_sequence.fasta --model esm2_t33_650M_UR50D --ouput_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
 ```
+**Step4: train model**
 
-
+The trained model will be saved at file folder './result/model_train_results'
+```
+cd PIC
+python ./code/main.py --data_path ./data/PIC_cell_dataset.pkl --feature_dir ./result/seq_embedding/esm2_t33_650M_UR50D --save_path ./result/model_train_results
+```
 ## License
+This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/KangBoming/PIC/blob/main/LICENSE) file for details
+
 
 ## Contact
+
+
