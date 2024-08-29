@@ -32,6 +32,7 @@ cd PIC
 cd PIC
 conda env create -f environment.yml
 conda activate PIC
+unset LD_LIBRARY_PATH
 ```
 
 **Step3: download pretrained protein language model**
