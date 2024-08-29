@@ -39,7 +39,7 @@ python ./code/embedding.py --data_path ./data/cell_data.pkl --fasta_file ./resul
 The trained model will be saved at file folder './result/model_train_results'
 ```
 cd PIC
-python ./code/main.py --data_path ./data/cell_data.pkl --feature_dir ./result/seq_embedding --save_path ./result/model_train_results --label_name A549
+python ./code/main.py --data_path ./data/cell_data.pkl --feature_dir ./result/seq_embedding --label_name A549 --save_path ./result/model_train_results 
 ```
 Tips: You can set the `label_name` parameter to `human`,`mouse`, or the name of any cell line (you can obtain the name of each cell line from the `data/cell_line_meta_info.csv` file) to train the corresponding PIC model. 
 
