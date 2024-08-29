@@ -14,7 +14,7 @@ The PIC web server is now available at http://www.cuilab.cn/
 * numpy=1.26.0
 * fair-esm=2.0.0
 ## Usage
-A demo for training PIC-cell model using linux-64 platform
+A demo for training a single PIC-cell model using linux-64 platform
 
 **Step1: clone the repo**
 ```
@@ -32,15 +32,17 @@ conda activate PIC
 The extracted sequence embeddng will be saved at file folder './result/seq_embedding'
 ```
 cd PIC
-python ./code/embedding.py --data_path ./data/PIC_cell_dataset.pkl --fasta_file ./result/protein_sequence.fasta --model esm2_t33_650M_UR50D --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
+python ./code/embedding.py --data_path ./data/cell_data.pkl --fasta_file ./result/protein_sequence.fasta --model esm2_t33_650M_UR50D --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
 ```
 **Step4: train model**
 
 The trained model will be saved at file folder './result/model_train_results'
 ```
 cd PIC
-python ./code/main.py --data_path ./data/PIC_cell_dataset.pkl --feature_dir ./result/seq_embedding --save_path ./result/model_train_results --label_name A549
+python ./code/main.py --data_path ./data/cell_data.pkl --feature_dir ./result/seq_embedding --save_path ./result/model_train_results --label_name A549
 ```
+Tips: You can set the `label_name` parameter to `human`,`mouse`, or the name of any cell line (you can obtain the name of each cell line from the `data/cell_line_meta_info.csv` file) to train the corresponding PIC model. 
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/KangBoming/PIC/blob/main/LICENSE) file for details
 
