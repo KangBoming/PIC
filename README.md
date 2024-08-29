@@ -32,7 +32,7 @@ conda activate PIC
 The extracted sequence embeddng will be saved at file folder './result/seq_embedding'
 ```
 cd PIC
-python ./code/embedding.py --data_path ./data/PIC_cell_dataset.pkl --fasta_file ./result/protein_sequence.fasta --model esm2_t33_650M_UR50D --ouput_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
+python ./code/embedding.py --data_path ./data/PIC_cell_dataset.pkl --fasta_file ./result/protein_sequence.fasta --model esm2_t33_650M_UR50D --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
 ```
 **Step4: train model**
 
