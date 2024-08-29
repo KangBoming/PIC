@@ -39,7 +39,7 @@ python ./code/embedding.py --data_path ./data/PIC_cell_dataset.pkl --fasta_file 
 The trained model will be saved at file folder './result/model_train_results'
 ```
 cd PIC
-python ./code/main.py --data_path ./data/PIC_cell_dataset.pkl --feature_dir ./result/seq_embedding/esm2_t33_650M_UR50D --save_path ./result/model_train_results
+python ./code/main.py --data_path ./data/PIC_cell_dataset.pkl --feature_dir ./result/seq_embedding --save_path ./result/model_train_results --label_name A549
 ```
 ## License
 This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/KangBoming/PIC/blob/main/LICENSE) file for details
