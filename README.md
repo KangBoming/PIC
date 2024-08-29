@@ -45,18 +45,54 @@ wget http://www.cuilab.cn/pic/static/pic/download/esm2_t33_650M_UR50D-contact-re
 **Step4: extract the sequence embedding from raw protein sequences** 
 
 The extracted sequence embeddng will be saved at file folder './result/seq_embedding'
+
+
+* human-level
+```
+cd PIC
+python ./code/embedding.py --data_path ./data/human_data.pkl --fasta_file ./result/protein_sequence.fasta --model ./pretrained_model/esm2_t33_650M_UR50D.pt --label_name human --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
+```
+
+* mouse-level
+```
+cd PIC
+python ./code/embedding.py --data_path ./data/mouse_data.pkl --fasta_file ./result/protein_sequence.fasta --model ./pretrained_model/esm2_t33_650M_UR50D.pt --label_name mouse --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
+```
+
+
+* Cell-level
 ```
 cd PIC
 python ./code/embedding.py --data_path ./data/cell_data.pkl --fasta_file ./result/protein_sequence.fasta --model ./pretrained_model/esm2_t33_650M_UR50D.pt --label_name A549 --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
 ```
+
+
+
+
 **Step5: train model**
 
 The trained model will be saved at file folder './result/model_train_results'
+
+* human-level
+```
+cd PIC
+python ./code/main.py --data_path ./data/human_data.pkl --feature_dir ./result/seq_embedding --label_name human --save_path ./result/model_train_results 
+```
+
+* mouse-level
+```
+cd PIC
+python ./code/main.py --data_path ./data/mouse_data.pkl --feature_dir ./result/seq_embedding --label_name mouse --save_path ./result/model_train_results 
+```
+
+* cell-level 
 ```
 cd PIC
 python ./code/main.py --data_path ./data/cell_data.pkl --feature_dir ./result/seq_embedding --label_name A549 --save_path ./result/model_train_results 
 ```
-Tips: You can set the `label_name` parameter to `human`,`mouse`, or the name of any cell line (you can obtain the name of each cell line from the `data/cell_line_meta_info.csv` file) to train the corresponding PIC model. 
+Tips: You can set the `label_name` parameter  to the name of any cell line (you can obtain the name of each cell line from the `data/cell_line_meta_info.csv` file) to train the corresponding cell-level PIC model. 
+
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/KangBoming/PIC/blob/main/LICENSE) file for details
