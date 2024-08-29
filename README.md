@@ -1,6 +1,11 @@
 # PIC: Protein Importance Calculator
 PIC is a sequence-based deep learning model for comprehensively predicting human protein essentiality, which was mainly bulit by fine-tuning a pre-trained protein language model. 
 The PIC web server is now available at http://www.cuilab.cn/
+
+![Overview](Workflow.png)
+
+
+
 ## Publication
 [Comprehensive prediction and analysis of human protein essentiality based on a pre-trained protein large language model](https://www.biorxiv.org/content/10.1101/2024.03.26.586900v1)
 ## Main requirements
