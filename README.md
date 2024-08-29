@@ -26,13 +26,14 @@ A demo for training a single PIC-cell model using linux-64 platform
 git clone https://github.com/KangBoming/PIC.git
 cd PIC
 ```
+
 **Step2: create and activate the environment**
 ```
 cd PIC
 conda env create -f environment.yml
 conda activate PIC
-
 ```
+
 **Step3: download pretrained protein language model**
 ```
 cd pretrained_model
