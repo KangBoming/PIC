@@ -24,7 +24,7 @@ cd PIC
 **Step2: create and activate the environment**
 ```
 cd PIC
-conda create --name PIC --file requirments.txt
+conda env create -f environment.yml
 conda activate PIC
 ```
 **Step3: extract the sequence embedding from raw protein sequences** 
