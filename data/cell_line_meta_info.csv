@@ -1,0 +1,324 @@
+cell_line,tissue,cancer_type,cancer_type_detail
+22RV1,Prostate,Prostate Carcinoma,Prostate Carcinoma
+23132-87,Stomach,Gastric Carcinoma,Gastric Adenocarcinoma
+42-MG-BA,Central Nervous System,Glioblastoma,Glioblastoma
+769-P,Kidney,Kidney Carcinoma,Clear Cell Renal Cell Carcinoma
+8-MG-BA,Central Nervous System,Glioblastoma,Glioblastoma
+A172,Central Nervous System,Glioblastoma,Glioblastoma
+A2058,Skin,Melanoma,Amelanotic Melanoma
+A253,Head and Neck,Head and Neck Carcinoma,Salivary Gland Squamous Cell Carcinoma
+A2780,Ovary,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma
+A2780ADR,Ovary,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma
+A2780cis,Ovary,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma
+A375,Skin,Melanoma,Amelanotic Melanoma
+A549,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+AGS,Stomach,Gastric Carcinoma,Gastric Adenocarcinoma
+AM-38,Central Nervous System,Glioblastoma,Glioblastoma
+ARH-77,Haematopoietic and Lymphoid,Non-Cancerous,Non-Cancerous
+AsPC-1,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+AU565,Breast,Breast Carcinoma,Breast Adenocarcinoma
+BB30-HNC,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+BE2-M17,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+Becker,Central Nervous System,Glioma,Astrocytoma
+BHY,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+BICR10,Head and Neck,Oral Cavity Carcinoma,Oral Cavity Squamous Cell Carcinoma
+BICR22,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+BICR78,Head and Neck,Oral Cavity Carcinoma,Oral Cavity Squamous Cell Carcinoma
+BxPC-3,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+C2BBe1,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+Ca9-22,Head and Neck,Oral Cavity Carcinoma,Gingival Squamous Cell Carcinoma
+CAL-27,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+CAL-33,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+CAL-51,Breast,Breast Carcinoma,Breast Carcinoma
+CAL-72,Bone,Osteosarcoma,Osteosarcoma
+Caov-4,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+CAPAN-1,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+CAS-1,Central Nervous System,Glioblastoma,Glioblastoma
+CHP-212,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+CL-11,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+COLO-205,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+COLO-320-HSR,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+COLO-678,Large Intestine,Colorectal Carcinoma,Colon Carcinoma
+COLO-680N,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+COLO-684,Endometrium,Endometrial Carcinoma,Endometrial Adenocarcinoma
+COLO-824,Breast,Breast Carcinoma,Breast Carcinoma
+COR-L23,Lung,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma
+D-423MG,Central Nervous System,Glioblastoma,Glioblastoma
+D-502MG,Central Nervous System,Glioblastoma,Glioblastoma
+D-542MG,Central Nervous System,Glioblastoma,Glioblastoma
+DAN-G,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+DBTRG-05MG,Central Nervous System,Glioblastoma,Glioblastoma
+Detroit562,Head and Neck,Head and Neck Carcinoma,Pharyngeal Squamous Cell Carcinoma
+DiFi,Large Intestine,Colorectal Carcinoma,Colorectal Carcinoma
+DK-MG,Central Nervous System,Glioblastoma,Glioblastoma
+DOK,Head and Neck,Oral Cavity Carcinoma,Oral Dysplasia
+DOV13,Ovary,Ovarian Carcinoma,Ovarian Adenocarcinoma
+DU-145,Prostate,Prostate Carcinoma,Prostate Carcinoma
+EBC-1,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+EC-GI-10,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+EFO-21,Ovary,Ovarian Carcinoma,Ovarian Serous Cystadenocarcinoma
+EFO-27,Ovary,Ovarian Carcinoma,Ovarian Mucinous Adenocarcinoma
+EGI-1,Biliary Tract,Biliary Tract Carcinoma,Cholangiocarcinoma
+EPLC-272H,Lung,Other Solid Cancers,Lung Mucoepidermoid Carcinoma
+ES-2,Ovary,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma
+ES4,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+ES5,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+ES8,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+ESO26,Esophagus,Esophageal Carcinoma,Esophageal Adenocarcinoma
+ESO51,Esophagus,Esophageal Carcinoma,Esophageal Adenocarcinoma
+ESS-1,Endometrium,Other Sarcomas,Endometrial Stromal Sarcoma
+EVSA-T,Breast,Breast Carcinoma,Breast Carcinoma
+EW-1,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+EW-16,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+EW-22,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+EW-7,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+FADU,Head and Neck,Head and Neck Carcinoma,Hypopharyngeal Squamous Cell Carcinoma
+FLO-1,Esophagus,Esophageal Carcinoma,Esophageal Adenocarcinoma
+GAMG,Central Nervous System,Glioblastoma,Glioblastoma
+GB-1,Central Nervous System,Glioblastoma,Glioblastoma
+GI-1,Central Nervous System,Glioblastoma,Gliosarcoma
+GP5d,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+HARA,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+HCC-15,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+HCC-78,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+HCC1143,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCC1187,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCC1395,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCC1806,Breast,Breast Carcinoma,Squamous Cell Breast Carcinoma Acantholytic Variant
+HCC1937,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCC1954,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCC2998,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+HCC38,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCC70,Breast,Breast Carcinoma,Ductal Breast Carcinoma
+HCE-4,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+HCT-116,Large Intestine,Colorectal Carcinoma,Colon Carcinoma
+HCT-15,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+HEC-1,Endometrium,Endometrial Carcinoma,Endometrial Adenocarcinoma
+Hey,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+HGC-27,Stomach,Gastric Carcinoma,Gastric Carcinoma
+HO-1-u-1,Head and Neck,Oral Cavity Carcinoma,Oral Cavity Squamous Cell Carcinoma
+HOP-62,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+HPAF-II,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+Hs-578-T,Breast,Breast Carcinoma,Invasive Ductal Carcinoma Not Otherwise Specified
+Hs-683,Central Nervous System,Glioma,Oligodendroglioma
+HSC-3,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+HSC-39,Stomach,Gastric Carcinoma,Signet Ring Cell Gastric Adenocarcinoma
+HSC-4,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+HT55,Large Intestine,Colorectal Carcinoma,Colon Carcinoma
+hTERT-RPE-1,Eye,Non-Cancerous,Non-Cancerous
+HuP-T3,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+HuP-T4,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+IGROV-1,Ovary,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma
+IM-9,Haematopoietic and Lymphoid,Non-Cancerous,Non-Cancerous
+IM-95,Stomach,Gastric Carcinoma,Gastric Adenocarcinoma
+IST-MEL1,Skin,Melanoma,Melanoma
+JHOS-2,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+JHOS-4,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+JHU-011,Head and Neck,Head and Neck Carcinoma,Laryngeal Squamous Cell Carcinoma
+JHU-022,Head and Neck,Oral Cavity Carcinoma,Oral Cavity Squamous Cell Carcinoma
+JHU-029,Head and Neck,Head and Neck Carcinoma,Laryngeal Squamous Cell Carcinoma
+JIMT-1,Breast,Breast Carcinoma,Breast Carcinoma
+KATOIII,Stomach,Gastric Carcinoma,Signet Ring Cell Gastric Adenocarcinoma
+KINGS-1,Central Nervous System,Glioma,Anaplastic Astrocytoma
+KLE,Endometrium,Endometrial Carcinoma,Endometrial Adenocarcinoma
+KM12,Large Intestine,Colorectal Carcinoma,Colon Carcinoma
+KMS-11,Haematopoietic and Lymphoid,Plasma Cell Myeloma,Plasma Cell Myeloma
+KNS-42,Central Nervous System,Glioblastoma,Glioblastoma
+KNS-62,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+KON,Head and Neck,Oral Cavity Carcinoma,Oral Cavity Squamous Cell Carcinoma
+KP-1N,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+KP-3,Pancreas,Pancreatic Carcinoma,Pancreatic Adenosquamous Carcinoma
+KP-4,Pancreas,Pancreatic Carcinoma,Pancreatic Carcinoma
+KP-N-YN,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+KP-N-YS,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+KURAMOCHI,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+KYAE-1,Esophagus,Esophageal Carcinoma,Esophageal Adenocarcinoma
+KYSE-140,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-150,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-220,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-270,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-410,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-450,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-510,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-520,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+KYSE-70,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+L-363,Haematopoietic and Lymphoid,Plasma Cell Myeloma,Plasma Cell Myeloma
+LB1047-RCC,Kidney,Kidney Carcinoma,Renal Cell Carcinoma
+LB771-HNC,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+LC-1-sq,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+LCLC-97TM1,Lung,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma
+LK-2,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+LN-229,Central Nervous System,Glioblastoma,Glioblastoma
+LNCaP-Clone-FGC,Prostate,Prostate Carcinoma,Prostate Carcinoma
+LNZTA3WT4,Central Nervous System,Glioma,Astrocytoma
+LOU-NH91,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+LoVo,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+LP-1,Haematopoietic and Lymphoid,Plasma Cell Myeloma,Plasma Cell Myeloma
+LS-123,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+LS-180,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+LS-411N,Large Intestine,Colorectal Carcinoma,Cecum Adenocarcinoma
+LS-513,Large Intestine,Colorectal Carcinoma,Cecum Adenocarcinoma
+LU-65,Lung,Non-Small Cell Lung Carcinoma,Giant Cell Lung Carcinoma
+LU-99A,Lung,Non-Small Cell Lung Carcinoma,Giant Cell Lung Carcinoma
+LXF-289,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+MC-IXC,Bone,Ewing's Sarcoma,Askin's Tumor
+MCAS,Ovary,Ovarian Carcinoma,Ovarian Cystadenocarcinoma
+MCF7,Breast,Breast Carcinoma,Invasive Ductal Carcinoma Not Otherwise Specified
+MDA-MB-231,Breast,Breast Carcinoma,Breast Adenocarcinoma
+MDA-MB-361,Breast,Breast Carcinoma,Breast Adenocarcinoma
+MDA-MB-415,Breast,Breast Carcinoma,Breast Adenocarcinoma
+MDA-MB-436,Breast,Breast Carcinoma,Invasive Ductal Carcinoma Not Otherwise Specified
+MDA-MB-453,Breast,Breast Carcinoma,Breast Adenocarcinoma
+MDA-MB-468,Breast,Breast Carcinoma,Breast Adenocarcinoma
+MDST8,Large Intestine,Colorectal Carcinoma,Colon Carcinoma
+MFE-280,Endometrium,Endometrial Carcinoma,Endometrial Adenocarcinoma
+MFE-296,Endometrium,Endometrial Carcinoma,Endometrial Adenocarcinoma
+MFM-223,Breast,Breast Carcinoma,Breast Carcinoma
+MHH-ES-1,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+MIA-PaCa-2,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+MKN28,Stomach,Gastric Carcinoma,Gastric Tubular Adenocarcinoma
+MOG-G-UVW,Central Nervous System,Glioma,Anaplastic Astrocytoma
+NB10,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NB13,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NB17,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NB5,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NB6,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NB69,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NB7,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NCI-H1155,Lung,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma
+NCI-H1299,Lung,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma
+NCI-H1355,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H1568,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H1650,Lung,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma
+NCI-H1755,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H1869,Lung,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma
+NCI-H1915,Lung,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma
+NCI-H1944,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H1975,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H1993,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H2023,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+NCI-H2087,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H2170,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+NCI-H226,Lung,Mesothelioma,Pleural Epithelioid Mesothelioma
+NCI-H23,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H3118,Head and Neck,Head and Neck Carcinoma,Parotid Gland Mucoepidermoid Carcinoma
+NCI-H3122,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-H322M,Lung,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma
+NCI-H358,Lung,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma
+NCI-H520,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+NCI-H650,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+NCI-N87,Stomach,Gastric Carcinoma,Gastric Tubular Adenocarcinoma
+NH-12,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+NMC-G1,Central Nervous System,Glioma,Astrocytoma
+no-10,Central Nervous System,Glioblastoma,Glioblastoma
+no-11,Central Nervous System,Glioblastoma,Glioblastoma
+NUGC-3,Stomach,Gastric Carcinoma,Gastric Adenocarcinoma
+OACM5-1,Esophagus,Esophageal Carcinoma,Esophageal Adenocarcinoma
+OAW-42,Ovary,Ovarian Carcinoma,Ovarian Serous Cystadenocarcinoma
+OC-314,Ovary,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma
+OCI-AML2,Haematopoietic and Lymphoid,Acute Myeloid Leukemia,Adult Acute Myeloid Leukemia
+OCI-AML3,Haematopoietic and Lymphoid,Acute Myeloid Leukemia,Adult Acute Myeloid Leukemia
+OCI-LY-19,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma,Diffuse Large B-Cell Lymphoma
+OCUB-M,Breast,Breast Carcinoma,Breast Carcinoma
+OE21,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+OE33,Esophagus,Esophageal Carcinoma,Barrett s Adenocarcinoma
+OPM-2,Haematopoietic and Lymphoid,Plasma Cell Myeloma,Plasma Cell Myeloma
+OSC-19,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+OSC-20,Head and Neck,Oral Cavity Carcinoma,Oral Cavity Squamous Cell Carcinoma
+OV-90,Ovary,Ovarian Carcinoma,Ovarian Adenocarcinoma
+OVCA420,Ovary,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma
+OVCAR-3,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+OVCAR-5,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+OVCAR-8,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+OVISE,Ovary,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma
+OVK-18,Ovary,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma
+OVMIU,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+PA-TU-8902,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+PA-TU-8988T,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+PANC-02-03,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+PANC-03-27,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+PANC-04-03,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+PANC-08-13,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+PANC-10-05,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+PC-14,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+PCI-15A,Head and Neck,Head and Neck Carcinoma,Pyriform Fossa Squamous Cell Carcinoma
+PCI-30,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+PCI-38,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+PCI-4B,Head and Neck,Head and Neck Carcinoma,Laryngeal Squamous Cell Carcinoma
+PCI-6A,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+PE-CA-PJ15,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+PEO1,Ovary,Ovarian Carcinoma,Ovarian Cystadenocarcinoma
+PEO4,Ovary,Ovarian Carcinoma,Ovarian Cystadenocarcinoma
+PL4,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+PSN1,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+RCC-FG2,Kidney,Kidney Carcinoma,Clear Cell Renal Cell Carcinoma
+RCM-1,Large Intestine,Colorectal Carcinoma,Rectal Adenocarcinoma
+RERF-GC-1B,Stomach,Gastric Carcinoma,Gastric Adenocarcinoma
+RERF-LC-Sq1,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+RKN,Soft Tissue,Other Sarcomas,Ovarian Leiomyosarcoma
+RKO,Large Intestine,Colorectal Carcinoma,Colon Carcinoma
+RL95-2,Endometrium,Endometrial Carcinoma,Adenosquamous Endometrial Carcinoma
+RMG-I,Ovary,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma
+ROS-50,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma,Diffuse Large B-Cell Lymphoma
+RPMI-8226,Haematopoietic and Lymphoid,Plasma Cell Myeloma,Plasma Cell Myeloma
+SAS,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+SCC-4,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+SCC-9,Head and Neck,Oral Cavity Carcinoma,Tongue Squamous Cell Carcinoma
+SCC90,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+SCH,Stomach,Gastric Carcinoma,Gastric Choriocarcinoma
+SF126,Central Nervous System,Glioblastoma,Glioblastoma
+SF295,Central Nervous System,Glioblastoma,Glioblastoma
+SF539,Central Nervous System,Glioblastoma,Gliosarcoma
+SJSA-1,Bone,Osteosarcoma,Osteosarcoma
+SK-GT-4,Esophagus,Esophageal Carcinoma,Esophageal Adenocarcinoma
+SK-MEL-2,Skin,Melanoma,Melanoma
+SK-MES-1,Lung,Squamous Cell Lung Carcinoma,Squamous Cell Lung Carcinoma
+SK-MG-1,Central Nervous System,Glioma,Astrocytoma
+SK-N-AS,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+SK-N-DZ,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+SK-N-FI,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+SK-N-SH,Peripheral Nervous System,Neuroblastoma,Neuroblastoma
+SK-PN-DW,Central Nervous System,Other Solid Cancers,Primitive Neuroectodermal Tumor
+SKN-3,Head and Neck,Head and Neck Carcinoma,Head and Neck Squamous Cell Carcinoma
+SNB75,Central Nervous System,Glioblastoma,Glioblastoma
+SNG-M,Endometrium,Endometrial Carcinoma,Endometrial Adenocarcinoma
+SNU-1,Stomach,Gastric Carcinoma,Gastric Carcinoma
+SNU-16,Stomach,Gastric Carcinoma,Gastric Carcinoma
+SNU-61,Large Intestine,Colorectal Carcinoma,Rectal Adenocarcinoma
+SNU-81,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+SNU-C1,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+SNU-C5,Large Intestine,Colorectal Carcinoma,Cecum Adenocarcinoma
+SU-DHL-10,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma,Diffuse Large B-Cell Lymphoma
+SU-DHL-5,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma,Diffuse Large B-Cell Lymphoma
+SU-DHL-8,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma,Diffuse Large B-Cell Lymphoma
+SU8686,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+SUIT-2,Pancreas,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma
+SW1088,Central Nervous System,Glioma,Astrocytoma
+SW1573,Lung,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma
+SW1990,Pancreas,Pancreatic Carcinoma,Pancreatic Adenocarcinoma
+SW48,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+SW620,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+SW626,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+SW837,Large Intestine,Colorectal Carcinoma,Rectal Adenocarcinoma
+T-T,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+T47D,Breast,Breast Carcinoma,Invasive Ductal Carcinoma Not Otherwise Specified
+T84,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma
+T98G,Central Nervous System,Glioblastoma,Glioblastoma
+TC-71,Bone,Ewing's Sarcoma,Ewing's Sarcoma
+TE-10,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+TE-4,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+TE-5,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+TE-8,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+TE-9,Esophagus,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma
+TGW,Peripheral Nervous System,Neuroblastoma,Adrenal Gland Neuroblastoma
+TMK-1,Stomach,Gastric Carcinoma,Gastric Adenocarcinoma
+TOV-112D,Ovary,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma
+TOV-21G,Ovary,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma
+TYK-nu,Ovary,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma
+U-87-MG,Central Nervous System,Glioblastoma,Glioblastoma
+U251,Central Nervous System,Glioma,Astrocytoma
+UACC-893,Breast,Breast Carcinoma,Invasive Ductal Carcinoma Not Otherwise Specified
+UWB1.289,Ovary,Ovarian Carcinoma,Ovarian Carcinoma
+VMRC-LCD,Lung,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma
+YH-13,Central Nervous System,Glioblastoma,Glioblastoma
+HT-29,Large Intestine,Colorectal Carcinoma,Colon Adenocarcinoma

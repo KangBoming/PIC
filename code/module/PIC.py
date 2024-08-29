@@ -37,3 +37,6 @@ class PIC(nn.Module):
             return self.generator(pooled_feature), attention_weights
         else:
             return self.generator(pooled_feature)
+        
+
+        

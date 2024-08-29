@@ -212,7 +212,6 @@ def model_train_main(data_path,label_name,
     print(f'{file_name}_model has done')
 
 
-
 def main():
     model_train_main(
         data_path=args.data_path,
@@ -237,9 +236,6 @@ def main():
 
 
 if __name__ == '__main__':
-        main()
-
-
-
+    main()
 
 

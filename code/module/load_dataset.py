@@ -47,7 +47,7 @@ class PIC_Dataset(Dataset):
         sample_index = self.indexes[index]
         sample = self.load_pt(sample_index)
         feature = sample['representations'][33].to(self.device)
-        label=torch.tensor(eval(sample['label'].split('_')[-1])[self.cell_name],dtype=torch.float32).to(self.device)
+        label=torch.tensor(eval(sample['label'].split('_')[-1]),dtype=torch.float32).to(self.device)
         seq_length = feature.shape[0]
         if seq_length < self.max_length:
             pad_length = self.max_length - seq_length
@@ -95,6 +95,7 @@ def make_dataloader(data_path,label_name,test_ratio,val_ratio,
     print(f"Length of val dataloader: {len(val_dataloader)} batches of {batch_size}")
     print(f"Length of test dataloader: {len(test_dataloader)} batches of {batch_size}")
     return train_dataloader,val_dataloader,test_dataloader
+
 
 
 
