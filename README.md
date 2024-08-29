@@ -31,15 +31,23 @@ cd PIC
 cd PIC
 conda env create -f environment.yml
 conda activate PIC
+
 ```
-**Step3: extract the sequence embedding from raw protein sequences** 
+**Step3: download pretrained protein language model**
+```
+cd pretrained_model
+wget http://www.cuilab.cn/pic/static/pic/download/esm2_t33_650M_UR50D.pt
+wget http://www.cuilab.cn/pic/static/pic/download/esm2_t33_650M_UR50D-contact-regression.pt
+```
+
+**Step4: extract the sequence embedding from raw protein sequences** 
 
 The extracted sequence embeddng will be saved at file folder './result/seq_embedding'
 ```
 cd PIC
 python ./code/embedding.py --data_path ./data/cell_data.pkl --fasta_file ./result/protein_sequence.fasta --model ./pretrained_model/esm2_t33_650M_UR50D.pt --label_name A549 --output_dir ./result/seq_embedding --device cuda:0 --truncation_seq_length 1024
 ```
-**Step4: train model**
+**Step5: train model**
 
 The trained model will be saved at file folder './result/model_train_results'
 ```
