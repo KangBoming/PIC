@@ -1,9 +1,12 @@
 # PIC: Protein Importance Calculator
-PIC is a sequence-based deep learning model for comprehensively predicting human protein essentiality, which was mainly bulit by fine-tuning a pre-trained protein language model. 
-The PIC web server is now available at http://www.cuilab.cn/
 
+## Abstract
+Human essential proteins (HEPs) are indispensable for individual viability and development. However, experimental methods to identify HEPs are often costly, time-consuming and labor-intensive. In addition, existing computational methods predict HEPs only at the cell line level, but HEPs vary across living human, cell lines and animal models. To address this, we develop a sequence-based deep learning model, PIC, by fine-tuning a pre-trained protein language model. PIC not only significantly outperforms existing methods for predicting HEPs but also provides comprehensive prediction results across three levels: human, mouse and cell line. Further, we define the protein essential score (PES), derived from PIC, to quantify human protein essentiality, and validate its effectiveness by a series of biological analyses. We demonstrate the biomedical value of PES by identifying novel potential prognostic biomarkers for breast cancer and quantifying the essentiality of 617462 human microproteins. 
 ![Overview](Workflow.png)
 
+
+## Web server
+PIC web server is now available at http://www.cuilab.cn/pic
 
 
 ## Publication
