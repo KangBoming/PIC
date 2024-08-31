@@ -12,7 +12,7 @@ PIC web server is now available at http://www.cuilab.cn/pic
 ## Publication
 [Comprehensive prediction and analysis of human protein essentiality based on a pre-trained protein large language model](https://www.biorxiv.org/content/10.1101/2024.03.26.586900v1)
 ## Main requirements
-* python=3.10.13
+* python=3.10.14
 * pytorch=1.12.1
 * torchaudio=0.12.1
 * torchvision=0.13.1
