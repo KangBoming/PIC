@@ -42,7 +42,7 @@ unset LD_LIBRARY_PATH
 ```
 cd pretrained_model
 wget https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt
-wget http://www.cuilab.cn/pic/static/pic/download/esm2_t33_650M_UR50D-contact-regression.pt
+wget https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt
 ```
 
 **Step4: extract the sequence embedding from raw protein sequences** 
