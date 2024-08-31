@@ -22,7 +22,7 @@ PIC web server is now available at http://www.cuilab.cn/pic
 * numpy=1.26.0
 * fair-esm=2.0.0
 ## Usage
-A demo for training a single PIC-cell model using linux-64 platform
+A demo for training a single PIC model using linux-64 platform
 
 **Step1: clone the repo**
 ```
