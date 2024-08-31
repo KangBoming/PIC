@@ -41,7 +41,7 @@ unset LD_LIBRARY_PATH
 **Step3: download pretrained protein language model**
 ```
 cd pretrained_model
-wget http://www.cuilab.cn/pic/static/pic/download/esm2_t33_650M_UR50D.pt
+wget https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt
 wget http://www.cuilab.cn/pic/static/pic/download/esm2_t33_650M_UR50D-contact-regression.pt
 ```
 
